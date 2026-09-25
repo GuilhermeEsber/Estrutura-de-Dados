@@ -7,7 +7,7 @@ int lista[MAX];
 
 void inserir(int valor) {
     if (dispo >= MAX) {
-        printf("Erro: Lista cheia!\n");
+        printf("Lista cheia\n");
         return;
     }
 
