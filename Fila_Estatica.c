@@ -47,9 +47,9 @@ void imprimir() {
     while (1) {
         printf("[%d] ", fila[i]);
         if (i == fim) {
-            break; // Parou quando chegou no fim
+            break;
         }
-        i = (i + 1) % MAX; // Avança de forma circular
+        i = (i + 1) % MAX;
     }
     printf("\n");
 }
